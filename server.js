@@ -11,6 +11,7 @@ const staticFolder = "public";
 app.use(express.static(staticFolder));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+//app.use(connectReload());
 
 app.use('/api', apiRoutes);
 
