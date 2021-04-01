@@ -5,7 +5,6 @@ async function getData() {
     const diningTable = document.querySelector('.table');
     console.table(diningTable);
 
-
 arrayDining.forEach((index) => {
     const appendItem = document.createElement('tr');
     appendItem.innerHTML = `
