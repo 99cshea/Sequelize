@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Christopher Shea</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 
@@ -16,9 +15,15 @@
     <div class="container">
 
 
-    <h1 class="title">Christopher Shea's Extremely Broken W10</h1>
+    <h1 class="title">Christopher Shea's W10</h1>
 
-    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+    <div class="box">
+        <div id="chartContainer"></div>
+    </div>
+
+    <div class="box">
+
+    <table class="table is-bordered is-striped is-hoverable is-fullwidth">
 
         <thead class="title">UMD Dining Halls</thead>
             <thead>
@@ -26,12 +31,13 @@
                 <th>Hall Name</th>
                 <th>Hall Address</th>
             </thead>
+            <tbody class="hall"></tbody>
     </table>
-
-    <script src="script
-    .js" charset="utf-8"></script>
-
-    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA==" crossorigin="anonymous"></script>
+    
+    <script src="script.js" charset="utf-8"></script>
 
     </div>
 </section>
